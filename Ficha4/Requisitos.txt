@@ -1,0 +1,6 @@
+Requisitos para aplicações de gestão de finanças pessoais:
+•	Tem de permitir login
+•	Ter forma de registar os movimentos da conta na app
+•	Diferença de dinheiros de mês para mês
+•	Dois itens(serviços) onde foi mais gasto dinheiro durante o mês
+•	Alerta quando os fundos estão demasiados baixos (utilizador decide o limite mínimo)
