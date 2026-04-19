@@ -27,6 +27,10 @@ public class MainPage {
         mainPage.removeAll();
         mainPage.setLayout(new BoxLayout(mainPage, BoxLayout.Y_AXIS));
 
+        // ✅ COR DE FUNDO IGUAL AO LOGIN
+        mainPage.setBackground(new java.awt.Color(238, 238, 238));  // Cinzento claro (padrão do sistema)
+        mainPage.setOpaque(true);  // Garante que a cor é mostrada
+
         // PAINEL DE BOAS-VINDAS
         JLabel labelBemVindo = new JLabel("Bem-vindo, " + utilizador.getNome() + "!");
         labelBemVindo.setFont(new java.awt.Font("Arial", java.awt.Font.BOLD, 18));
